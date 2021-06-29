@@ -1,0 +1,29 @@
+{
+    "name": "abacaxinsano/aulacomposer",
+    "decription": "Conhecendo o Composer",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guilherme Gaeta",
+            "email": "guigaeta@gmail.com",
+            "role": "Desenvolvedor",
+            "homepage": "https://github.com/AbacaxInsano"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "lib/"
+        },
+        "files": [
+            "lib/config.php"
+        ]
+    },
+    "require": {
+        "php": ">= 7.0.0",
+        "phpmailer/phpmailer": "^6.5"
+    }
+}
